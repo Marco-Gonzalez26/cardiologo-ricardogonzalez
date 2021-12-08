@@ -2,22 +2,22 @@ import React from 'react'
 import { SideContainer,
     Icon,CloseIcon,
     SidebarMenu,SidebarLink,
-    SidebarRoute, SideWrap } from './SideBarElements'
+    SidebarRoute, SideBtnWrap } from './SideBarElements'
 
-function SideBar() {
+function SideBar({toggle, isOpen}) {
     return (
-        <SideContainer>
-            <Icon>
+        <SideContainer isOpen={isOpen} onClick={toggle}>
+            <Icon onClick={toggle}>
                 <CloseIcon/>
             </Icon>
             <SidebarMenu>
-                <SidebarLink>Pizzas</SidebarLink>
-                <SidebarLink>Desserts</SidebarLink>
-                <SidebarLink>Full Menu</SidebarLink>
+                <SidebarLink to='/'>Pizzas</SidebarLink>
+                <SidebarLink to='/'>Desserts</SidebarLink>
+                <SidebarLink to='/'>Full Menu</SidebarLink>
             </SidebarMenu>
-            <SideWrap>
+            <SideBtnWrap>
                 <SidebarRoute to='/'>Order Now</SidebarRoute>
-            </SideWrap>
+            </SideBtnWrap>
         </SideContainer>
             
         

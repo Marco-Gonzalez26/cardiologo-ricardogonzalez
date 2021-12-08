@@ -8,6 +8,7 @@ rgba(0,0,0,0.1)),  url(${ImgBg});
 height: 100vh;
 background-position: center;
 background-size: cover;
+font-family: 'Kanit', sans-serif;
 `
 export const MainContent = styled.div`
 height: calc(100vh -80px);
