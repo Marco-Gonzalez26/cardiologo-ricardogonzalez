@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.977bb9fa.chunk.css",
+    "main.js": "/static/js/main.018e728c.chunk.js",
+    "main.js.map": "/static/js/main.018e728c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b02ea9a1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b02ea9a1.js.map",
+    "static/js/2.42734c11.chunk.js": "/static/js/2.42734c11.chunk.js",
+    "static/js/2.42734c11.chunk.js.map": "/static/js/2.42734c11.chunk.js.map",
+    "static/js/3.733b7472.chunk.js": "/static/js/3.733b7472.chunk.js",
+    "static/js/3.733b7472.chunk.js.map": "/static/js/3.733b7472.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.977bb9fa.chunk.css.map": "/static/css/main.977bb9fa.chunk.css.map",
+    "static/js/2.42734c11.chunk.js.LICENSE.txt": "/static/js/2.42734c11.chunk.js.LICENSE.txt",
+    "static/media/ImgBg.773cf912.jpg": "/static/media/ImgBg.773cf912.jpg",
+    "static/media/ImgBg2.bb0e161d.jpg": "/static/media/ImgBg2.bb0e161d.jpg",
+    "static/media/MAPA.a15c7053.jpg": "/static/media/MAPA.a15c7053.jpg",
+    "static/media/Ricardo.86cf6431.jpeg": "/static/media/Ricardo.86cf6431.jpeg",
+    "static/media/consulta.799104b2.jpg": "/static/media/consulta.799104b2.jpg",
+    "static/media/ecocardiograma.9deee414.jpg": "/static/media/ecocardiograma.9deee414.jpg",
+    "static/media/electrocardiograma.51bb3a2d.jpg": "/static/media/electrocardiograma.51bb3a2d.jpg",
+    "static/media/evaluacion.841edebc.jpg": "/static/media/evaluacion.841edebc.jpg",
+    "static/media/hipertension-embarazo.f0891c2f.jpg": "/static/media/hipertension-embarazo.f0891c2f.jpg",
+    "static/media/hipertension.c0c2e11a.jpg": "/static/media/hipertension.c0c2e11a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b02ea9a1.js",
+    "static/js/2.42734c11.chunk.js",
+    "static/css/main.977bb9fa.chunk.css",
+    "static/js/main.018e728c.chunk.js"
+  ]
+}
