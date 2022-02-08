@@ -1,60 +1,55 @@
-import product1 from '../../images/product-peperoni.jpg'
-import product2 from '../../images/product-mushroom-Pizza.jpg'
-import product3 from '../../images/product-pizza-vegetarian.jpg'
-import product4 from '../../images/product-dessert1.jpg'
-import product5 from '../../images/product-dessert2.jpg'
-import product6 from '../../images/product-dessert3.jpg'
+import product1 from '../../images/consulta.jpg'
+import product2 from '../../images/evaluacion.jpg'
+import product3 from '../../images/hipertension-embarazo.jpg'
+import product4 from '../../images/MAPA.jpg'
+import product5 from '../../images/hipertension.jpg'
+import product6 from '../../images/ecocardiograma.jpg'
+import product7 from '../../images/electrocardiograma.jpg' 
 
 export const productData = [
     {
-    img: product1,
-    alt: 'Pizza',
-    name: 'Peperoni Pizza',
-    description: 'italian sauce, mozarella cheese, peperoni, and onion',
-    price: '$19.99',
-    button: 'Add to cart'
+        img: product1,
+        alt: 'Servicio',
+        name: 'Consulta ',
+        description: 'Electrocardiograma incluido',
+        price: '40$'
 },
 {
     img: product2,
-    alt: 'Pizza',
-    name: 'Mushroom Pizza',
-    description: 'italian sauce, mozarella cheese, mushroom , and black olives',
-    price: '$16.99',
-    button: 'Add to cart'
+    alt: 'Servicio',
+    name: 'Valoraciones Cardiovasculares Prequirurgicas',
+    price: '40$'
 },
 {
     img: product3,
-    alt: 'Pizza',
-    name: 'Vegetarian Pizza',
-    description: 'sauce, mozarella, tomatoes , black olives, and onion',
-    price: '$14.99',
-    button: 'Add to cart'
-}
-]
-
-export const productData2 = [
-    {
+    alt: 'Servicio',
+    name: 'Control de Hipertension en el Embarazo',
+},
+{
     img: product4,
-    alt: 'Dessert',
-    name: 'Berry Pie',
-    description: 'A mouth-watering berry pie, with blueberries and raspberries',
-    price: '$9.99',
-    button: 'Add to cart'
+    alt: 'Servicio',
+    name: 'Estudios',
+    description: 'Holter, MAPA',
+    price: '60$'
 },
 {
     img: product5,
-    alt: 'Dessert',
-    name: 'CheeseCake',
-    description: 'A delicious cheesecake, made with love for our costumers',
-    price: '$12.99',
-    button: 'Add to cart'
+    alt: 'Servicio',
+    name: 'Control',
+    description: 'Hipertension arterial, Arritmias Cardiacas, Anginas de Pecho, Infartos, Insuficiencia Cardiaca',
 },
 {
     img: product6,
-    alt: 'Dessert',
-    name: 'Chocolate Cake',
-    description: 'You will see the heaven with a taste of this cake ',
-    price: '$10.99',
-    button: 'Add to cart'
+    alt: 'Servicio',
+    name: 'Ecocardiograma',
+    price: '80$',
+},
+{
+    img: product7,
+    alt: 'Servicio',
+    name: 'Electrocardiograma',
+    description: 'Informe Incluido',
+    price: '20$'
 }
 ]
+

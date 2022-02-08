@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import {NavLink as Link} from 'react-router-dom'
-import {FaPizzaSlice} from 'react-icons/fa'
+import {Link} from 'react-scroll'
+import {FaHeartbeat} from 'react-icons/fa'
 
 export const Nav = styled.div`
 background: transparent;
@@ -39,7 +39,15 @@ p{
 }
 `
 
-export const Bars = styled(FaPizzaSlice)`
-font-size: 2rem;
-transform: translate(-50%, -15%);
+export const Bars = styled(FaHeartbeat)`
+color:	#0000FF;
+font-size: 5rem;
+transition: all ease 0.2s;
+margin: 5px;
+
+
+&:hover{
+    transform: translateY(-5px);
+
+}
 `

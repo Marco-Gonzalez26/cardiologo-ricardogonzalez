@@ -7,7 +7,6 @@ background: linear-gradient(to right, rgba(0,0,0,0.7),
 rgba(0,0,0,0.1)),  url(${ImgBg});
 height: 100vh;
 background-position: center;
-background-size: cover;
 font-family: 'Kanit', sans-serif;
 `
 export const MainContent = styled.div`
@@ -37,7 +36,7 @@ font-weight: bold;
 `
 
 export const MainH1  = styled.h1`
-font-size: clamp(2.5rem, 10vw, 5rem);
+font-size: clamp(2.5rem, 5vw, 5rem);
 margin-bottom: 1rem;
 box-shadow:  0px 5px #e9ba23;
 letter-spacing: 3px;
@@ -53,12 +52,15 @@ export const MainBtn = styled.button`
     border: none;
     color: #fff;
     transition: 0.2s ease-out;
-    background: #e31837;
+    background:#0000FF;
+    border-radius: 25px;
+    font-weight: 800;
 
     &:hover{
         background: #ffc500;
         transition: 0.2s ease-out;
         cursor: pointer;
         color: #000;
+        transform: translateY(-5px)
     }
 `

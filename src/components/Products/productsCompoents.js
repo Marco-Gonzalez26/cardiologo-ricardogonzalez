@@ -8,8 +8,7 @@ import {
     ProductInfo,
     ProductTitle,
     ProductDesc,
-    ProductPrice,
-    ProdutcButton
+    ProductPrice
 } from './productsElements'
 
 
@@ -17,7 +16,7 @@ import {
 
 function Products ({heading, data}) {
     return (
-        <ProductsContainer>
+        <ProductsContainer id='servicios'>
             <ProductsHeading>{heading}</ProductsHeading>
             <ProductWrapper>
                 {data.map((product, index) => {
@@ -28,7 +27,6 @@ function Products ({heading, data}) {
                                 <ProductTitle>{product.name}</ProductTitle>
                                 <ProductDesc>{product.description}</ProductDesc>
                                 <ProductPrice>{product.price}</ProductPrice>
-                                <ProdutcButton>{product.button}</ProdutcButton>
                             </ProductInfo>
                         </ProductCard>
                     )
