@@ -7,6 +7,7 @@ function Navbar({toggle}) {
             <Nav>
                 <NavIcon onClick={toggle}>
                     <Bars/>
+                    <p>Click aqui</p>
                 </NavIcon>
             </Nav>
         </>

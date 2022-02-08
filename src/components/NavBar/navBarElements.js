@@ -34,8 +34,15 @@ cursor: pointer;
 color: #fff;
 
 p{
-    transform: translate(-175%, 100%);
+    transform: translate(-100px, -275%);
     font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 3px #0000FF, 0 0 5px #0000FF;
+
+    &:hover{
+        transform: translate(-100px, -290%);
+        transition: all ease 0.2s;
+    }
 }
 `
 
@@ -45,9 +52,7 @@ font-size: 5rem;
 transition: all ease 0.2s;
 margin: 5px;
 
-
 &:hover{
     transform: translateY(-5px);
-
 }
 `
